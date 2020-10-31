@@ -1,5 +1,5 @@
-print("DISCLAIMER: This game has no historical accuracy. It is not based on events of the past.")
-missileShoot = input ("You are being attacked. The other plane is shooting at you and you have two choices. Do you accelerate or maneuver: ")
+print("DISCLAIMER: This game has no historical accuracy. It is not based on events of the past, and is built solely for fun and games.")
+missileShoot = input ("You are a fighter pilot sent on a mission to destroy enemy planes. \nYou encounter another plane. The other plane is shooting at you and you have two choices. Do you accelerate or maneuver: ")
 missileShoot = missileShoot.lower()
 if missileShoot == "accelerate":
    print("The plane still shoots you and takes out both engines. Your plane falls hundreds of feet down before crashing. You died...")
