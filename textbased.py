@@ -1,4 +1,4 @@
-print("DISCLAIMER: This game has no historical accuracy")
+print("DISCLAIMER: This game has no historical accuracy. It is not based on events of the past.")
 missileShoot = input ("You are being attacked. The other plane is shooting at you and you have two choices. Do you accelerate or maneuver: ")
 missileShoot = missileShoot.lower()
 if missileShoot == "accelerate":
