@@ -1,5 +1,5 @@
-#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-missileShoot = input ("accelerate or maneuver: ")
+print("DISCLAIMER: this game has no historical accuracy")
+missileShoot = input ("you are being attacked. the other plane is shooting at you and you have two choices. do you accelerate or maneuver: ")
 missileShoot = missileShoot.lower()
 if missileShoot == "accelerate":
    print("the plane still shoots you and takes out both engines. your plane falls hundreds of feet down before crashing. you died...")
