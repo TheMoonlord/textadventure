@@ -2,10 +2,10 @@ print("DISCLAIMER: This game has no historical accuracy. It is not based on even
 missileShoot = input ("You are a fighter pilot sent on a mission to destroy enemy planes. \nYou encounter another plane. The other plane is shooting at you and you have two choices. Do you accelerate or maneuver: ")
 missileShoot = missileShoot.lower()
 if missileShoot == "accelerate":
-   print("The plane still shoots you and takes out both engines. Your plane falls hundreds of feet down before crashing. You died...")
+   print("You accelerate, but it makes no difference. The plane shoots you and takes out both engines. Your plane falls hundreds of feet down before crashing. You died...")
    exit()
 elif missileShoot == "maneuver":
-   dive = input("You perform a barrel roll, and the plane misses. \nBut now the plane is aimed to crash into you.\nDive or climb: ")
+   dive = input("You perform a barrel roll, and the plane (just barely) misses. \nBut now the plane is aimed to crash into you.\nDive or climb: ")
    dive = dive.lower()
 else:
    print("Sorry, I didn't get that.")
