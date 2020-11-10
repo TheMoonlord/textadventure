@@ -1,3 +1,4 @@
+print("Before you play, know that entering anything even one letter off will result in you being sent back. \nThis is true for spaces too, but it is not case sensitive.")
 print("DISCLAIMER: This game has no historical accuracy. It is not based on events of the past, and is built solely for fun and games.")
 missileShoot = input ("You are a fighter pilot sent on a mission to destroy enemy planes. \nYou encounter another plane. The other plane is shooting at you and you have two choices. Do you accelerate or maneuver: ")
 missileShoot = missileShoot.lower()
