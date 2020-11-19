@@ -6,16 +6,16 @@ if missileShoot == "accelerate":
    print("You accelerate, but it makes no difference. The plane shoots you and takes out both engines. Your plane falls hundreds of feet down before crashing. You died...")
    exit()
 elif missileShoot == "maneuver":
-   dive = input("You perform a barrel roll, and the plane (just barely) misses. \nBut now the plane is aimed to crash into you.\nDive or climb: ")
-   dive = dive.lower()
+   diveOrClimb = input("You perform a barrel roll, and the plane (just barely) misses. \nBut now the plane is aimed to crash into you.\nDive or climb: ")
+   diveOrClimb = diveOrClimb.lower()
 else:
    print("Sorry, I didn't get that.")
    exit()
 
-if dive == "dive":
+if diveOrClimb == "dive":
    print("Your plane dives directly into the gasoline storage of the other plane, and both explode spectacularly. You died...")
    exit()
-elif dive == "climb":
+elif diveOrClimb == "climb":
    fireOrDive = input("You climb into the air. The plane misses you by a foot, and you watch as it crashes straight into another. \nHowever, two more planes rise to face you. \nFire or dive: ")
    fireOrDive = fireOrDive.lower()
 else:
