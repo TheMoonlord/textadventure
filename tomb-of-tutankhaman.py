@@ -1,4 +1,4 @@
-print("You are an adventurer looking for riches. \nYou've been told that there is an abundance of wealth in a tomb in the faraway land of Egypt. Tutankhaman, the pharaoh's tomb. \nBut it is also said to be cursed, and anyone brave enough to rob it will have something horrifying happen to them. \nYou've already made the decision to go in... it's too late to turn back now.")
+print("You are an adventurer looking for riches. \nYou've been told that there is an abundance of wealth in a tomb in the faraway land of Egypt. Tutankahman, the pharaoh's tomb. \nBut it is also said to be cursed, and anyone brave enough to rob it will have something horrifying happen to them. \nYou've already made the decision to go in... it's too late to turn back now.")
 pressTheButton = input("There are strange hieroglyphs on the walls. One almost looks like a button... do you want to press it? (Y/n)")
 pressTheButton = pressTheButton.lower
 if pressTheButton == "y":
