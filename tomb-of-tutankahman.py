@@ -1,0 +1,1 @@
+print("You are an adventurer looking for riches. \nYou've been told that there is an abundance of wealth in a tomb in the faraway land of Egypt. \nBut it is also said to be cursed, and anyone brave enough to rob it will have something horrifying happen to them. \nYou've already made the decision to go in... it's too late to turn back now.")
