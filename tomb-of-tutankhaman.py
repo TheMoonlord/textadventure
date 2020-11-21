@@ -4,8 +4,10 @@ pressTheButton = pressTheButton.lower
 if pressTheButton == "y":
   print("The wall cracks with the force of your press, and crumbles. You are buried under an avalanche of debris, and you die.")
   exit()
-elif pressTheButton = "n":
+elif pressTheButton == "n":
   snakeMoveOrStay = input("You turn away and choose to look at other things. Like... the carvings of snakes. \nOne of the people had told you the snakes were beings to greet you in the afterlife. Keep going on, or stay where you are? (Move/stay)")
   snakeMoveOrStay = snakeMoveOrStay.lower
 else:
   print("Not a valid answer.")
+if snakeMoveOrstay == "stay":
+  input("The groynd crumbles")
