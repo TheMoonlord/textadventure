@@ -52,7 +52,7 @@ elif moveOrStay == "move":
       print("You sprint into the room, eager to haul the goodies out, when suddenly it crashes down on top of you, and you die.")
       exit()
     elif walkOrRun == "walk":
-      print("You walk into the room calmly, and take each of the heavy items out, one by one. You have finally found the treasures said to be in Tutankhaman's tomb, and taken them. Ending: Jackpot")
+      print("You walk into the room calmly, and take each of the heavy items out, one by one. You have finally found the treasures said to be in Tutankhaman's tomb, and taken them. \nEnding: Jackpot")
       exit()
     else:
       print("Not a valid answer.")
